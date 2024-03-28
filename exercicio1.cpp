@@ -11,6 +11,6 @@ int main (){
 
     int soma = a + b;
 
-    printf("sua soma é: %d + %d = %d/n", a, b, soma);
+    printf("sua soma é: %d + %d = %d\n", a, b, soma);
 return 0;
 }
