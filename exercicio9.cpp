@@ -5,8 +5,7 @@ int main (){
     int a;
         printf("digite um numero: ");
         scanf("%d", &a);
-    int b = 2;
         
-        printf("%d\n", a % b == 0) && (a > 0) || (a = 0) || (a < 0 != 0);
+        printf("%d\n", (a % 2 == 0) && (a > 0));
     return 0;
 }

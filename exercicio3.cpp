@@ -13,6 +13,6 @@ int main (){
     float soma = num1 + num2 + num3;
     float divisao = soma / 3;
 
-    printf("a média dos números é: %.2f/n",  (soma / 3));
+    printf("a média dos números é: %.2f\n",  (soma / 3));
     return 0;
 }

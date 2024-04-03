@@ -19,7 +19,7 @@ int main (){
         printf("digite o terceiro peso: ");
         scanf("%f", &p3);
 
-        float calculo = (n1 * p1 + n2 * p2 + n3 * p3) / (p1 + p2 + p3);
+        float calculo = ((n1 * p1) + (n2 * p2) + (n3 * p3) / (p1 + p2 + p3));
 
         printf("o peso da nota é : %.2f\n", calculo);
     return 0;

@@ -6,9 +6,7 @@ int main (){
     int h;
         printf("digite quantas horas você quer converter para segundos: ");
         scanf("%d", &h);
-    
-    int segundos = (h * 60 * 60);
-
-    printf("%d\n", segundos); 
-return 0;
+        int s = (h * 60 * 60);
+        printf("%d\n", s); 
+    return 0;
 }
